@@ -5,7 +5,7 @@ import nltk
 import requests
 
 # Load spacy language model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en-core-web-sm-mirror")
 
 # Retrieve a list of all chatbot answers
 chatbot_responses = json.load(open("chatbot_responses.json"))

@@ -2,7 +2,7 @@
 name = "python-template"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Joseph DeMasse"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
@@ -12,6 +12,7 @@ Flask = "^2.2.0"
 urllib3 = "^1.26.12"
 nltk = "^3.8.1"
 spacy = "^3.5.0"
+en-core-web-sm-mirror = "^2.2.5"
 
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"

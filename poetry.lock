@@ -200,6 +200,17 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "en-core-web-sm-mirror"
+version = "2.2.5"
+description = "English multi-task CNN trained on OntoNotes. Assigns context-specific token vectors, POS tags, dependency parse and named entities."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+spacy = ">=2.2.2"
+
+[[package]]
 name = "flask"
 version = "2.2.2"
 description = "A simple framework for building complex web applications."
@@ -913,7 +924,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "03638952fc5e12b48ab3bd5bebc3e4dbb17146df6ed258b293a5474e23a002e7"
+content-hash = "6f7b13e05c2282fbb181aedb0a736b759561625dc953642884afed2dd925f55b"
 
 [metadata.files]
 aiohttp = []
@@ -933,6 +944,7 @@ confection = []
 cryptography = []
 cymem = []
 debugpy = []
+en-core-web-sm-mirror = []
 flask = []
 frozenlist = []
 idna = []
